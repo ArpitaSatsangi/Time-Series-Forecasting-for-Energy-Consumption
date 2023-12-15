@@ -1,5 +1,17 @@
 # Time-Series-Forecasting
 
+## 1. Time Series Forecasting for Energy Consumption:
+* Dataset Exploration: Initial analysis and visualization of the PJME hourly dataset, showcasing energy consumption trends.
+* Train-Test Split: Division of the dataset into training and test sets, with the split occurring at the start of 2015.
+
+## 2. XGBoost Model Training and Evaluation:
+* Feature Engineering: Creation of time-related features to enhance model understanding.
+* Model Selection: Adoption of the XGBoost algorithm for time series forecasting.
+* Forecasting and Evaluation: Training the model on the training set, forecasting on the test set, and assessing performance using Root Mean Squared Error (RMSE).
+* Error Analysis: Identification of best and worst prediction days, providing insights into model strengths and weaknesses.
+  
+## 3. Results:
+
 ![01  PJME energy used in MW](https://github.com/ArpitaSatsangi/Time-Series-Forecasting/assets/107709451/cb4caeaa-4fa9-407b-8aa2-2791c0fc7959)
 
 ![02  data train   test split](https://github.com/ArpitaSatsangi/Time-Series-Forecasting/assets/107709451/e468b603-d950-4a21-897c-5660dd20ffaa)
