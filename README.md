@@ -1,5 +1,15 @@
 # Time-Series-Forecasting
 
+
+## 0. Intoduction: 
+Time Series Analysis - Time series refers to an arrangement and presentation of statistical data in chronological order. The statistical data is collected over a period of time. According to Spiegel, “A time series is a set of observations taken at specified times, usually at equal intervals.” There exist various forces that affect the values of the phenomenon in a time series. These are also the components of the time series analysis
+
+1. Secular Trend or Simple trend or Long term movement: Secular trend refers to the general tendency of data to increase or decrease or stagnate over a long period of time. Time series relating to Economic, Business, and Commerce may show an upward or increasing tendency. Whereas, the time series relating to death rates, birth rates, share prices, etc. may show a downward or decreasing tendency.
+2. Seasonal variations: Seasonal variations refer to the changes that take place due to the rhythmic forces which operate in a regular and periodic manner. These forces usually have the same or most similar pattern year after year. When we record data weekly, monthly or quarterly, we can see and calculate seasonal variations. Thus, when a time series consists of data only based on annual figures, there will be seen no seasonal variations. These variations may be due to seasons, weather conditions, habits, customs or traditions. For example, in summers the sale of ice-cream increases and at the time of Diwali the sale of diyas, crackers, etc. go up.
+3. Cyclical variations: Cyclical variations are due to the ups and downs recurring after a period from time to time. These are due to the business cycle and every organization has to phase all the four phases of a business cycle some time or the other. Prosperity or boom, recession, depression, and recovery are the four phases of a business cycle.
+4. Random or irregular variations: Random variations are fluctuations which are a result of unforeseen and unpredictable forces. These forces operate in an absolutely random or erratic manner and do not have any definite pattern. Thus, these variations may be due to floods, famines, earthquakes, strikes, etc.
+
+
 ## 1. Time Series Forecasting for Energy Consumption:
 * Dataset Exploration: Initial analysis and visualization of the PJME hourly dataset, showcasing energy consumption trends.
 * Train-Test Split: Division of the dataset into training and test sets, with the split occurring at the start of 2015.
