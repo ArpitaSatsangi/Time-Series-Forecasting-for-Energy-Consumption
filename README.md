@@ -1,7 +1,7 @@
 # Time Series Forecasting for Energy Consumption
 
 
-## 0. Intoduction: 
+## 0. Introduction: 
 
 ### Time Series Analysis 
 Time series refers to an arrangement and presentation of statistical data in chronological order. The statistical data is collected over a period of time. According to Spiegel, “A time series is a set of observations taken at specified times, usually at equal intervals.” There exist various forces that affect the values of the phenomenon in a time series. These are also the components of the time series analysis
