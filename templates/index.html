@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Model Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .grid img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .grid img:hover {
+            transform: scale(1.5);
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Energy Model Results</h1>
+        <div class="grid">
+            <img alt="Energy image" src="{{ url_for('static', filename='01. PJME energy used in MW.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='02. data train & test split.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='03. week of data.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='04. MW by Hours.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='05. MW by Months.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='06. Feature importance.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='07. Raw data and Prediction.png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='08. week of data (Truth data + prediction).png') }}">
+            <img alt="Energy image" src="{{ url_for('static', filename='09. mape score.PNG') }}">
+        </div>
+    </div>
+</body>
+</html>
